@@ -1,0 +1,61 @@
+/* A textile moves from the dye table into an inhabitable scene. */
+.living-gallery{padding:70px 6% 30px;background:#ece9de;color:#213a49;overflow:clip;--living-gold:#a68451}
+.living-heading{display:flex;justify-content:space-between;align-items:end;margin:0 0 42px;gap:30px}
+.living-heading .eyeline{font:11px/1.7 var(--latin,serif);letter-spacing:3px;color:#6e7d7a;margin:0 0 23px}
+.living-heading h2{font:400 clamp(66px,7vw,112px)/1.05 var(--display-ma,serif);letter-spacing:2px;margin:0}
+.living-heading h2 em{font-style:normal;color:#718888}
+.living-heading>p{font:13px/2.2 var(--reading,sans-serif);letter-spacing:1px;padding:0 20px 0 0;border-right:1px solid #89989566;margin:0 0 8px;color:#5f7477}
+.living-workbench{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:35px;align-items:start}
+.living-visual{position:relative;background:#d2d2c5;aspect-ratio:4/3;overflow:clip;box-shadow:0 22px 50px #182e3714}
+.living-canvas{display:block;width:100%;height:100%;object-fit:contain;transform-origin:50% 80%}
+.living-stage-label{position:absolute;top:27px;left:30px;display:flex;flex-direction:column;gap:9px;pointer-events:none;color:#2b4149}
+.living-stage-label>span{font:9px var(--latin,serif);letter-spacing:2px;opacity:.7}
+.living-stage-label>b{font:400 27px var(--chapter-display,serif);letter-spacing:2px}
+.living-view-number{position:absolute;top:30px;right:28px;font:italic 16px var(--latin,serif);color:#526b70}
+.living-render-note{position:absolute;left:25px;bottom:17px;right:25px;margin:0;font:10px/1.8 var(--reading,sans-serif);letter-spacing:.7px;color:#f0eee5;background:#203745d9;padding:9px 12px;width:fit-content;max-width:calc(100% - 50px)}
+.living-controls{font-family:var(--reading,sans-serif);padding:0}
+.living-controls-title{display:flex;justify-content:space-between;align-items:center;font:24px var(--chapter-display,serif);margin:0 0 15px}
+.living-controls-title>span{font:22px var(--reading,sans-serif);color:var(--living-gold)}
+.living-products{border-top:1px solid #81918e66}
+.living-products button{width:100%;border:0;border-bottom:1px solid #81918e4d;display:flex;align-items:center;gap:14px;padding:20px 4px;background:transparent;color:#6f7d7b;text-align:left;transition:color .2s,background .2s}
+.living-products button small{font:11px var(--latin,serif);color:#8a8e7b}
+.living-products button span{font:19px var(--chapter-display,serif);letter-spacing:1px}
+.living-products button b{margin-left:auto;font:17px var(--reading,sans-serif);font-weight:400;opacity:0;transform:translate(-6px,6px);transition:transform .3s,opacity .3s}
+.living-products button[aria-pressed=true]{color:#1e4359;background:#c9d0c238}
+.living-products button[aria-pressed=true] b,.living-products button:hover b{opacity:1;transform:none}
+.living-products button:hover{color:#1f4558}
+.living-products button:focus-visible,.living-gallery input:focus-visible,.living-download:focus-visible,.living-back:focus-visible{outline:2px solid #a87a42;outline-offset:4px}
+.living-setting{margin:25px 0 18px}
+.living-setting label{font-size:12px;display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}
+.living-setting output{font:15px var(--latin,serif);color:#627b7e}
+.living-setting input{display:block;width:100%;accent-color:#315771;cursor:ew-resize;margin:0}
+.living-setting p{font-size:10px;line-height:1.9;color:#758783;margin:10px 0 0}
+.living-light{padding:0;border:0;margin:20px 0;display:flex;gap:14px;flex-wrap:wrap}
+.living-light legend{font:12px var(--reading,sans-serif);margin:0 0 12px;padding:0}
+.living-light label{font-size:11px;display:flex;align-items:center;gap:5px;cursor:pointer}
+.living-light input{width:13px;height:13px;accent-color:#315771;margin:0}
+.living-piece{border-top:1px solid #81918e44;padding:18px 0;display:flex;flex-direction:column;gap:7px;overflow-wrap:anywhere}
+.living-piece>small{font-size:9px;color:#7a8a84;letter-spacing:1px}
+.living-piece>strong{font:400 23px/1.4 var(--chapter-display,serif);color:#2e4c5b}
+.living-motif{font-size:10px;color:#748680}
+.living-download{background:#24495e;color:#f2eee2;border:1px solid #24495e;width:100%;display:flex;align-items:center;justify-content:space-between;padding:14px 13px;font-size:11px;letter-spacing:.6px;transition:background .25s,color .25s}
+.living-download:hover{background:#365e70;color:#fff8e8}
+.living-download>span{font-size:20px;line-height:1}
+.living-back{display:flex;justify-content:space-between;align-items:center;font-size:10px;padding:15px 0;color:#607b7d;border-bottom:1px solid #81918e44}
+.living-back>span{font-size:17px}
+.living-status{font-size:10px;line-height:1.8;color:#6b7f7b;min-height:1.8em;margin:12px 0}
+.living-footnote{display:flex;justify-content:space-between;align-items:center;margin:25px 0 0;border-top:1px solid #81918e44;padding-top:18px;gap:20px}
+.living-footnote>span{font:14px var(--latin,serif);letter-spacing:2px;color:#788a85;white-space:nowrap}
+.living-footnote>p{font:11px/1.9 var(--reading,sans-serif);color:#758780;margin:0}
+@media(min-width:1600px){.living-workbench{grid-template-columns:minmax(0,1fr) 270px;gap:50px}.living-controls-title{font-size:30px}.living-products button{padding:27px 5px}.living-products button span{font-size:23px}.living-setting{margin-top:30px}.living-setting label,.living-light legend{font-size:14px}.living-piece{padding:24px 0}.living-download{padding:18px;font-size:13px}.living-heading{margin-bottom:55px}}
+@media(max-width:1100px){.living-gallery{padding-left:5%;padding-right:5%}.living-workbench{grid-template-columns:minmax(0,1fr) 205px;gap:24px}.living-products button{padding:16px 3px}.living-products button span{font-size:17px}.living-heading h2{font-size:80px}.living-heading>p{font-size:11px}.living-stage-label{top:21px;left:22px}.living-stage-label>b{font-size:23px}.living-view-number{top:23px;right:22px}.living-piece>strong{font-size:21px}}
+@media(max-width:800px){.living-gallery{padding-top:45px}.living-heading h2{font-size:72px}.living-heading>p{font-size:10px;line-height:2}.living-workbench{grid-template-columns:1fr;gap:25px}.living-controls{display:grid;grid-template-columns:1fr 1fr;gap:0 25px;align-items:start}.living-controls-title{grid-column:1/-1;font-size:23px;margin-bottom:12px}.living-products{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid #81918e4d}.living-products button{border-bottom:0;padding:17px 8px;gap:9px}.living-products button+button{border-left:1px solid #81918e4d}.living-products button b{font-size:14px}.living-products button span{font-size:17px}.living-setting{margin:24px 0 18px}.living-light{margin-top:25px;display:flex;flex-wrap:wrap;column-gap:13px}.living-piece{grid-column:1/-1;padding:15px 0;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:5px 10px}.living-piece>small{grid-column:1/-1}.living-piece>strong{font-size:23px}.living-motif{text-align:right}.living-download{align-self:center}.living-back{align-self:center}.living-status{grid-column:1/-1;margin:7px 0;min-height:0}.living-footnote{margin-top:20px}.living-footnote>p{font-size:10px}}
+@media(max-width:540px){.living-gallery{padding:35px 6% 25px}.living-heading{margin-bottom:28px;display:block}.living-heading .eyeline{font-size:9px;letter-spacing:1.8px;margin-bottom:20px}.living-heading h2{font-size:62px;line-height:1.08}.living-heading>p{font-size:11px;line-height:1.9;border-right:0;border-left:1px solid #a3aca077;padding:0 0 0 12px;margin:23px 0 0;max-width:100%;}.living-heading>p br{display:none}.living-workbench{gap:23px}.living-visual{aspect-ratio:1/1.05}.living-canvas{object-fit:cover;width:140%;max-width:none;position:absolute;left:-20%;height:100%}.living-stage-label{left:17px;top:20px;gap:6px}.living-stage-label>span{font-size:7px;letter-spacing:1px}.living-stage-label>b{font-size:23px}.living-view-number{right:18px;top:22px;font-size:13px}.living-render-note{left:12px;bottom:12px;right:12px;font-size:8px;letter-spacing:0;max-width:calc(100% - 24px);padding:8px 9px}.living-controls{gap:0 16px}.living-products button{padding:16px 6px;gap:6px}.living-products button small{font-size:9px}.living-products button span{font-size:16px;letter-spacing:0}.living-products button b{font-size:12px}.living-setting p{font-size:9px}.living-light{gap:12px}.living-light legend{font-size:11px}.living-light label{font-size:10px}.living-piece>strong{font-size:21px}.living-motif{font-size:9px}.living-download{padding:12px 10px;font-size:10px}.living-back{font-size:9px;gap:5px;padding:12px 0}.living-footnote{display:block}.living-footnote>span{font-size:12px}.living-footnote>p{margin-top:10px;font-size:10px;line-height:1.8}}
+@media(prefers-reduced-motion:reduce){.living-gallery *{transition:none!important}}
+.quiet .living-gallery *{transition:none!important}
+
+/* Night scenes retain a readable, material-coloured caption surface. */
+.living-gallery[data-light="evening"] .living-stage-label{color:#f2ecdb;background:#142631cc;padding:12px 15px;border:1px solid #c9c7ae2b;backdrop-filter:blur(8px)}
+.living-gallery[data-light="evening"] .living-stage-label>span{color:#c8d3ca;opacity:1}
+.living-gallery[data-light="evening"] .living-view-number{color:#f0e7d0;background:#142631cc;padding:8px 10px;border:1px solid #c9c7ae2b}
+@media(max-width:540px){.living-gallery[data-light="evening"] .living-stage-label{padding:9px 11px}.living-gallery[data-light="evening"] .living-view-number{padding:7px 8px}}

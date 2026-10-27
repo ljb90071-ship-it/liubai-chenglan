@@ -1,0 +1,22 @@
+/* The router owns scene-root transforms. Art motion belongs to descendants. */
+section[data-scene][hidden], .scene-curtain[hidden] { display: none !important; }
+section[data-scene] { transform-origin: 50% 35%; }
+.scene-switching section[data-scene] { pointer-events: none; will-change: transform, opacity; }
+html[data-scene-router="ready"] .site-header { z-index: 95; }
+[data-route][aria-current="page"] { --route-active: 1; }
+.scene-curtain { position: fixed; inset: 0; z-index: 80; overflow: hidden; isolation: isolate; pointer-events: none; }
+.scene-curtain-panel { position: absolute; top: -25%; bottom: -25%; width: 55%; background: #11273e; transform: translate3d(0,112%,0) skewX(-10deg); box-shadow: -1px 0 #c8b29066, 0 0 70px #0004; }
+.scene-curtain-panel:nth-child(1) { left: -14%; background: linear-gradient(105deg,#071b30 0%,#1c4765 45%,#17354d 74%,#0c2137 100%); }
+.scene-curtain-panel:nth-child(2) { left: 24%; background: linear-gradient(105deg,#16334d 0%,#285a78 35%,#16354d 61%,#0c2038 100%); }
+.scene-curtain-panel:nth-child(3) { left: 62%; background: linear-gradient(105deg,#10273e,#244b68 42%,#0b1d32 80%); }
+.scene-curtain-panel::before { content: ""; position: absolute; inset: 0; opacity: .2; background-image: repeating-linear-gradient(90deg,transparent 0 2px,#d4d9d815 2px 3px),repeating-linear-gradient(0deg,transparent 0 3px,#d4d9d813 3px 4px); }
+.scene-curtain-panel::after { content: ""; position: absolute; width: 25%; top: 0; bottom: 0; right: 8%; background: linear-gradient(90deg,transparent,#c4dae312,transparent); }
+.scene-curtain-label { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #efe9dc; opacity: 0; }
+.scene-curtain-number { font: 10px/1.2 var(--latin,monospace); letter-spacing: .22em; color: #d4c4a5; margin-bottom: 30px; }
+.scene-curtain-words { display: flex; align-items: baseline; justify-content: center; gap: .12em; font-family: var(--display,var(--serif,serif)); font-weight: 400; font-size: clamp(74px,11vw,170px); line-height: 1.2; letter-spacing: .01em; }
+.scene-curtain-words span { display: block; }
+.scene-curtain-words span:nth-child(2) { padding-top: .17em; color: #c3d2d6; }
+.scene-curtain-label small { font: 9px/1.5 var(--latin,sans-serif); letter-spacing: .35em; color: #b9c5c8; margin-top: 32px; }
+.scene-live { position: fixed; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; pointer-events: none; }
+@media(max-width:720px) { .scene-curtain-words { font-size: clamp(58px,17vw,108px); gap: .06em; } .scene-curtain-number { margin-bottom: 22px; font-size: 9px; } .scene-curtain-label small { font-size: 7px; letter-spacing: .24em; margin-top: 25px; } }
+@media(prefers-reduced-motion:reduce) { .scene-switching section[data-scene] { will-change: auto; } }

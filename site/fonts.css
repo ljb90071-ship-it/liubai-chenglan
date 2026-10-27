@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Indigo Serif';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/indigo-serif-0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Indigo Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/indigo-serif-1.ttf) format('truetype');
+}

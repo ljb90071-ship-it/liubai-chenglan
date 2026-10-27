@@ -1,0 +1,55 @@
+/* Local OFL fonts. Exact sources, copyright notices and coverage: assets/type-v5/. */
+@font-face {
+  font-family: "Indigo Ma";
+  src: url("assets/type-v5/mashan.woff2?v=3cd345e793") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Indigo Xing";
+  src: url("assets/type-v5/zhimang.woff2?v=8165c90336") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Indigo XiaoWei";
+  src: url("assets/type-v5/xiaowei.woff2?v=ba94da8dfa") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Indigo Sans";
+  src: url("assets/type-v5/reading.woff2?v=26e1c80394") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Indigo Sans";
+  src: url("assets/type-v5/reading-medium.woff2?v=1c2ae2d60a") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Indigo Roman";
+  src: url("assets/type-v5/latin.woff2?v=7c1bde15f1") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+:root {
+  --display: "Indigo Xing", "STXingkai", "KaiTi", cursive;
+  --display-ma: "Indigo Ma", "KaiTi", cursive;
+  --chapter-display: "Indigo XiaoWei", "Songti SC", "SimSun", serif;
+  --reading: "Indigo Sans", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --latin: "Indigo Roman", "Times New Roman", serif;
+}
+/* These are opt-in utilities; layout and editorial choices belong to the site. */
+.type-brush { font-family: var(--display); font-weight: 400; font-synthesis: none; }
+.type-chapter { font-family: var(--chapter-display); font-weight: 400; font-synthesis: none; }
+.type-reading { font-family: var(--reading); font-synthesis: none; }
+.type-roman { font-family: var(--latin); font-weight: 400; font-synthesis: none; }
