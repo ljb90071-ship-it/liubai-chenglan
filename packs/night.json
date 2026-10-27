@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "night",
+  "version": "1.0.0",
+  "title": "夜色成蓝",
+  "venue": "留白 · 夜蓝特别展",
+  "intro": "夜色把蓝染得更深。沿用黛夜五浸的色方，让莲华或麦枝在深蓝中显影；你决定花版的节奏，夜色守住它的底色。",
+  "ending": "蓝深处，白更亮。这一方夜色，收着你刚刚留下的光。",
+  "steps": ["choose", "create", "explore", "reveal", "takeaway"],
+  "choices": [
+    {"id":"lotus","title":"夜莲初见","description":"莲华珠露与边带相映，把一池光留在夜蓝之中。","preset":{"motif":"lotus","repeat":"straight","frame":"bordered","spacing":115,"rotation":0,"motifScale":100,"bridge":true,"dyePalette":"midnight","dyeDepth":5}},
+    {"id":"wind","title":"晚风过麦","description":"让麦枝在错列中生长，留下一阵轻轻吹过的晚风。","preset":{"motif":"sprig","repeat":"staggered","frame":"open","spacing":110,"rotation":15,"motifScale":105,"bridge":true,"dyePalette":"midnight","dyeDepth":5}}
+  ],
+  "allowedControls": ["motif", "layout", "custom", "bridge"],
+  "conditions": [{"field":"coverage","operator":"gte","value":1},{"field":"dyePalette","operator":"eq","value":"midnight"},{"field":"dyeDepth","operator":"eq","value":5},{"field":"stage","operator":"eq","value":"reveal"}],
+  "card": {"headline":"我把一束光，留给夜蓝","caption":"黛夜五浸之间，花版的每一道孔洞都成为光的来处。今夜的留白，由我完成。"},
+  "sources": [{"title":"中国非物质文化遗产网：国家级非物质文化遗产代表性项目名录","url":"https://www.ihchina.cn/project.html"}],
+  "idleSeconds": 120,
+  "countdownSeconds": 20
+}

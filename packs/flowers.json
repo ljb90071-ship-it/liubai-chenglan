@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "flowers",
+  "version": "1.0.0",
+  "title": "寻花成布",
+  "venue": "留白 · 蓝印花布体验展",
+  "intro": "从一枚花版出发，把喜欢的纹样铺成自己的布。孔洞过浆，浆处留白；施浆之后，让靛蓝在其间显现。",
+  "ending": "一方蓝，一处白。带走这次选择，也把下一次创作留在手中。",
+  "steps": ["choose", "explore", "create", "reveal", "takeaway"],
+  "choices": [
+    {"id":"day","title":"花开有时","description":"以六瓣团花为起点，寻找疏密之间的节奏。","preset":{"motif":"flower","repeat":"straight","frame":"open","spacing":100,"rotation":0,"motifScale":100,"bridge":true,"dyePalette":"indigo","dyeDepth":3}},
+    {"id":"water","title":"水纹相逢","description":"把回环水纹错列相接，让流动留在布面。","preset":{"motif":"wave","repeat":"staggered","frame":"bordered","spacing":110,"rotation":0,"motifScale":90,"bridge":true,"dyePalette":"teal","dyeDepth":3}},
+    {"id":"sprout","title":"新生一枝","description":"以三叶新生为起点，在重复中留下自己的变化。","preset":{"motif":"seed","repeat":"mirror","frame":"open","spacing":105,"rotation":20,"motifScale":100,"bridge":true,"dyePalette":"indigo","dyeDepth":2}}
+  ],
+  "allowedControls": ["motif", "layout", "custom", "palette", "bridge"],
+  "conditions": [{"field":"coverage","operator":"gte","value":0.001},{"field":"stage","operator":"eq","value":"reveal"}],
+  "card": {"headline":"我把一朵花，留在蓝里","caption":"这方布从一次选择开始，在亲手施浆与揭蓝之间，留下独一份的疏密与留白。"},
+  "sources": [{"title":"中国非物质文化遗产网：国家级非物质文化遗产代表性项目名录","url":"https://www.ihchina.cn/project.html"}],
+  "idleSeconds": 120,
+  "countdownSeconds": 20
+}
