@@ -1,0 +1,52 @@
+留白成蓝 v0.5 — local type resources
+Generated 2026-10-25
+
+Fonts were obtained from Google Fonts official CSS and fonts.gstatic.com endpoints.
+Exact requests, original downloads, local conversion parameters, cmap results and
+SHA256 hashes are preserved in SOURCE.json. All CSS family aliases leave internal
+font family names unchanged. The local WOFF2 conversion changes the font container,
+not the original glyph outlines. License texts are preserved verbatim.
+
+mashan.woff2 — Ma Shan Zheng / weight 400
+Copyright 2018 The MaShanZheng Project Authors (https://github.com/googlefonts/mashanzheng)
+License: OFL-mashanzheng.txt
+
+zhimang.woff2 — Zhi Mang Xing / weight 400
+Copyright 2018 The ZhiMangXing Project Authors (https://github.com/googlefonts/zhimangxing)
+License: OFL-zhimangxing.txt
+
+xiaowei.woff2 — ZCOOL XiaoWei / weight 400
+Copyright 2018 The ZCOOL XiaoWei Project Authors (https://www.github.com/googlefonts/xiaowei)
+License: OFL-zcoolxiaowei.txt
+
+reading.woff2 — Noto Sans SC / weight 400
+(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+License: OFL-notosanssc.txt
+
+reading-medium.woff2 — Noto Sans SC / weight 500
+(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+License: OFL-notosanssc.txt
+
+latin.woff2 — Cormorant Garamond / weight 400
+Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
+License: OFL-cormorantgaramond.txt
+
+The title-ma-outline.svg uses intact Ma Shan Zheng glyph contours, with project
+layout offsets and small rotations. It is not a newly authored typeface. Keep this
+notice and OFL-mashanzheng.txt when redistributing the derived glyph artwork.
+
+Display subsets cover the recorded short titles only. Body subsets cover the
+recorded site text and printable ASCII. User-created names and later content may
+use the declared system CJK fallback. Cormorant additionally includes editorial
+punctuation. These static fonts have no advertised variable axes.
+
+v0.6 coverage update — 2026-10-26
+The existing v0.5 font subsets were retained and merged with only newly needed
+glyphs fetched from the same official Google Fonts families and static weights.
+fontTools 4.63.0 merged the subsets and wrote WOFF2. Empty shaping-table shells
+with no ScriptList were removed before merging; no active shaping rules were
+removed. Decomposed glyph contours and horizontal advance/bearing values were
+compared against the original subsets for every requested non-space character.
+The exact character sets, additional sources, download hashes and resulting font
+hashes are recorded in SOURCE.json. All original copyright notices and OFL 1.1
+licenses still apply.
