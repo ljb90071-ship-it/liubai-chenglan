@@ -1,0 +1,322 @@
+{
+  "sourceProject": "留白成蓝艺术工坊 / Liubai Indigo Atelier",
+  "sourceVersion": "ZERO2026 v0.6.1",
+  "copiedAt": "2026-10-26T20:22:49.8162314+08:00",
+  "files": [
+    {
+      "path": "app.js",
+      "sha256": "a0442257739d40d0db2b678e915e0e95494506eafe08d29db4e0518424605bd3",
+      "bytes": 22577
+    },
+    {
+      "path": "app.test.mjs",
+      "sha256": "b2875edcb8d3f6e018ba52ebcce2ba594da75f181537fae3b3e40e1a1970e2e7",
+      "bytes": 15708
+    },
+    {
+      "path": "atelier-type.css",
+      "sha256": "5c560c6aaf002df17c245c3816d13435148a00fe1cad7faa578133887f7da7d0",
+      "bytes": 1967
+    },
+    {
+      "path": "atelier.css",
+      "sha256": "c7bfc5344984546c887b94785a1c8d916e78dd8f9a740ac94f9105fe1ebcdf5b",
+      "bytes": 24687
+    },
+    {
+      "path": "atelier.js",
+      "sha256": "d74c0b8b8bec9086c97fe61770e72c9a29b50cdfee4ddb9a220903705f009723",
+      "bytes": 2368
+    },
+    {
+      "path": "atlas.css",
+      "sha256": "39b3c7b437fa471579928474db131063f49b330a099e63ceac5467bb8f3aa82e",
+      "bytes": 15813
+    },
+    {
+      "path": "atlas.js",
+      "sha256": "9f095e857097748b08ca30c070363e9334fe274eb3d43337b485241578cb31f3",
+      "bytes": 20694
+    },
+    {
+      "path": "cloth-scene.js",
+      "sha256": "491530429263c42ff3a3501d647e1e3dd022bd2ead2de429b100324b4cf76333",
+      "bytes": 32288
+    },
+    {
+      "path": "cloth-scene.test.mjs",
+      "sha256": "26a90fbcb62e38d2206bd369e3aa277e0b0da2294f915226ccc8c4e3a67d1101",
+      "bytes": 23702
+    },
+    {
+      "path": "creative-tools.css",
+      "sha256": "96fe59094e8841b645b3e399c172447489c40fe3940437b620075ce07aec1afc",
+      "bytes": 9514
+    },
+    {
+      "path": "creative-tools.js",
+      "sha256": "19452bccf67bf4f388479171a36cccfd8f59794135c9f1e98a8d936e40ae5db0",
+      "bytes": 16393
+    },
+    {
+      "path": "creative-tools.test.mjs",
+      "sha256": "75666c416c1ae69591dff3ddd845a0278ca048e6a1370045ade2d1d1dbde99c2",
+      "bytes": 847
+    },
+    {
+      "path": "dye-field.js",
+      "sha256": "92cd5bdf2c1578b569afa9b2b97202e99c58fda1d1c559f25676b74f8faa8aa1",
+      "bytes": 15460
+    },
+    {
+      "path": "engine.js",
+      "sha256": "4ae04b728e2a237d10b823b0b0d293030d910e2aed88d172360f56ddc582b105",
+      "bytes": 18097
+    },
+    {
+      "path": "engine.test.mjs",
+      "sha256": "20f5c006af900cedd9c88bcd217e820f0d04f696df62abeb6fe461af4b14a519",
+      "bytes": 20555
+    },
+    {
+      "path": "expansion.js",
+      "sha256": "150afd32aa6108c200456b18639453b7c73c3c1a6611c08b292a780cb29a74da",
+      "bytes": 694
+    },
+    {
+      "path": "experience.js",
+      "sha256": "5b156fcaf9808acb348cde7a4d1cec6d507bf2199c342c1c1905f0a9632339a0",
+      "bytes": 12207
+    },
+    {
+      "path": "exploration-model.js",
+      "sha256": "5f046e463351a5a6fc74aa0c426b8d97cbaea6fba769d89bf395f8ddec487b1a",
+      "bytes": 3427
+    },
+    {
+      "path": "exploration.css",
+      "sha256": "426c7d683518d76c38dabd7984f9258ac9032a28dffbf5a6c468b42a8eab16f8",
+      "bytes": 6932
+    },
+    {
+      "path": "exploration.js",
+      "sha256": "9000157c3e472a894f7e0e51ab3619b5d1465c203a7fc046fa5fda28ce0433fb",
+      "bytes": 10765
+    },
+    {
+      "path": "exploration.test.mjs",
+      "sha256": "bd1e82f2c7bb3eea41ba75110edc3ff92c9e3273d4349ae5a208d590c177606c",
+      "bytes": 9425
+    },
+    {
+      "path": "fonts.css",
+      "sha256": "aff41dd4102957d0448032d2fdaaf98840ca1514571f4088286d012fa9e9fdf7",
+      "bytes": 350
+    },
+    {
+      "path": "immersive.css",
+      "sha256": "ff0a7025f06d8846cde6d16f2631fac99cdcdada800e218c67e6fa7682657669",
+      "bytes": 21222
+    },
+    {
+      "path": "index.html",
+      "sha256": "0888cf1d41fdeaab0cffd3fb013ccbc253d5337d6583bcfd157a331ff58c9bed",
+      "bytes": 18258
+    },
+    {
+      "path": "living-gallery.css",
+      "sha256": "9c44679b08d8d44dc8aaa8a01f683d6187e8779f1a9ebb8428d0bc0396ddde5c",
+      "bytes": 9486
+    },
+    {
+      "path": "living-gallery.js",
+      "sha256": "d8b1e59cc2bb441eba592b075944f74de3455cee580323edef365d3d20ef3897",
+      "bytes": 22210
+    },
+    {
+      "path": "living-gallery.test.mjs",
+      "sha256": "8d32e954870f1bd811c6aec42490d0c3552cab7ac47c66c950df2c1cc949e8f4",
+      "bytes": 1841
+    },
+    {
+      "path": "navigation.css",
+      "sha256": "b53436d5953b404434988ada1d1165eaee54670456792b94bccdb69d4f4b240b",
+      "bytes": 4736
+    },
+    {
+      "path": "README.md",
+      "sha256": "ae6408751b4b115897860885c41fde79b97386311a1f57c62ade59c01a0a9ce7",
+      "bytes": 8958
+    },
+    {
+      "path": "scene-router.css",
+      "sha256": "52806cad30bccb0e27c7aadfc0e090a5c2483bc73cbbeb1e2332e43cec4de73e",
+      "bytes": 2835
+    },
+    {
+      "path": "scene-router.js",
+      "sha256": "ad382e8904f4e96ec5894d7f80e1470ca599c2286f09c9ab276ed2c924644b61",
+      "bytes": 26435
+    },
+    {
+      "path": "scene-router.test.mjs",
+      "sha256": "ec59ab147a14477e5e92b4b15ea0eab2d14202b6187d94f71423b5aeb45197cd",
+      "bytes": 24545
+    },
+    {
+      "path": "spectacle.css",
+      "sha256": "e577b6cceed4d27732d424ccc993f3d20cc2f9f5f4be5690b84ae0a3c51e7d19",
+      "bytes": 38586
+    },
+    {
+      "path": "spectacle.js",
+      "sha256": "e8a92bf17867400e134f7f804668664d35d377a19b8308b22ffeaa0f24d33604",
+      "bytes": 5355
+    },
+    {
+      "path": "style.css",
+      "sha256": "e8a065fcb0024aa54c5b186b20cd6b801330f1373ab712bc624511f13318e26a",
+      "bytes": 21195
+    },
+    {
+      "path": "workshop-motion.js",
+      "sha256": "bebb20ee8a44621f85bd10e5ad66221678e313cd1fa080c88b083e36468b4a0a",
+      "bytes": 11696
+    },
+    {
+      "path": "assets/FONT-NOTICE.txt",
+      "sha256": "a5af329d15163f9d6638bebca0c62d412b098653f1d943b08206a05b072a670c",
+      "bytes": 1271
+    },
+    {
+      "path": "assets/indigo-serif-0.ttf",
+      "sha256": "693dc0ee3d37f1004623cdafead002b15221ad916767104e8aff4f33ac4dfbd5",
+      "bytes": 188436
+    },
+    {
+      "path": "assets/indigo-serif-1.ttf",
+      "sha256": "ddd540c5a2c8bd0ed47a963dd50b979915abe25f87e30573418b1f9f216e0f2b",
+      "bytes": 188368
+    },
+    {
+      "path": "assets/indigo-workshop.png",
+      "sha256": "a5cb792bd12d1ce0896cf77450a372671653866cd28ca51e989c3efb0caad34b",
+      "bytes": 3311807
+    },
+    {
+      "path": "assets/mark.svg",
+      "sha256": "8edb6fa634324810d8f31d832305dc91dd83887c5210c6d98b6dae686acd8f6e",
+      "bytes": 197
+    },
+    {
+      "path": "assets/OFL-NotoSerifSC.txt",
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+      "bytes": 4350
+    },
+    {
+      "path": "assets/art-v5/indigo-tide.png",
+      "sha256": "d49d212b783d7be260353d982cbf49173c49d6fcddf8077467cfaf6ff3b7385a",
+      "bytes": 2610693
+    },
+    {
+      "path": "assets/art-v5/resist-study-final.png",
+      "sha256": "d69113b0c0007241b9fc56ac74d6387b5ac02d8df42679e4077ca0cb4042e7aa",
+      "bytes": 2554479
+    },
+    {
+      "path": "assets/art-v5/resist-study.png",
+      "sha256": "ffc30b3044ed16b26361f7f7050c9cdee54ba51ba3ee9e611e670c93282b041f",
+      "bytes": 2497576
+    },
+    {
+      "path": "assets/art-v6/living-studio.png",
+      "sha256": "d392d08ad29ac54fda4ed0d1da55d58deaf32d3b52638055381d9564b943f1f5",
+      "bytes": 2702351
+    },
+    {
+      "path": "assets/art-v6/SOURCE.json",
+      "sha256": "2b5673fc64189a2b40b602d65313a94945858495454aca61141ddc9cfb6dcff7",
+      "bytes": 372
+    },
+    {
+      "path": "assets/type-v5/BROWSER-FONTS.json",
+      "sha256": "4e9bf70ce7d8bd1b4c7d9c1c71d33b69725aa4d2adf9082fba84565a417dbbe8",
+      "bytes": 1434
+    },
+    {
+      "path": "assets/type-v5/FONT-NOTICE.txt",
+      "sha256": "3544d912674862ad02c363092862f9804a7c04640c8ab37d9eb52d335f50cb5a",
+      "bytes": 2740
+    },
+    {
+      "path": "assets/type-v5/latin.woff2",
+      "sha256": "7c1bde15f142b10bf00f1edc19dae759ff2e607723ae3d47d8ab1af349a87c54",
+      "bytes": 13448
+    },
+    {
+      "path": "assets/type-v5/mashan.woff2",
+      "sha256": "3cd345e793bb4188ce108ef8f7ccdf1a590d514c23ee5e74ad0c71558c8b9a0b",
+      "bytes": 98940
+    },
+    {
+      "path": "assets/type-v5/OFL-cormorantgaramond.txt",
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "bytes": 4387
+    },
+    {
+      "path": "assets/type-v5/OFL-mashanzheng.txt",
+      "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+      "bytes": 4397
+    },
+    {
+      "path": "assets/type-v5/OFL-notosanssc.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "bytes": 4388
+    },
+    {
+      "path": "assets/type-v5/OFL-zcoolxiaowei.txt",
+      "sha256": "a094514ca57cf8f9c5e8d8d1adab5d8cd3a377297ff016f9df2c05b3ecd77f0a",
+      "bytes": 4400
+    },
+    {
+      "path": "assets/type-v5/OFL-zhimangxing.txt",
+      "sha256": "10947328199e369a3e6b4a67e8e5507ed99d5bbb264a1f156415aa9b665e4d15",
+      "bytes": 4397
+    },
+    {
+      "path": "assets/type-v5/proof.html",
+      "sha256": "14b438daa0cc97d2bdd4b7c71f0c6a5136f0251284a055974192295c2eb00b3b",
+      "bytes": 4850
+    },
+    {
+      "path": "assets/type-v5/reading-medium.woff2",
+      "sha256": "1c2ae2d60a7ede099531e4eb6bba6214f764bdbcad6b4bf614f54024af5b1959",
+      "bytes": 108672
+    },
+    {
+      "path": "assets/type-v5/reading.woff2",
+      "sha256": "26e1c80394918ae704cb93b99c179e5022363abc11013a84a86428aa695d7967",
+      "bytes": 107456
+    },
+    {
+      "path": "assets/type-v5/SOURCE.json",
+      "sha256": "03f84c8f225841a548a9877533c1ad58a2a7892bc751119325a2bd89e41a32bc",
+      "bytes": 51804
+    },
+    {
+      "path": "assets/type-v5/title-ma-outline.svg",
+      "sha256": "6ea78c78467e27a656daf048f304b7265cfa2fed2953af1280540ec982b8f3be",
+      "bytes": 11441
+    },
+    {
+      "path": "assets/type-v5/xiaowei.woff2",
+      "sha256": "ba94da8dfaac4ec011888105aaa04a691ca4117d347b64fc56fba80821d26fa9",
+      "bytes": 79820
+    },
+    {
+      "path": "assets/type-v5/zhimang.woff2",
+      "sha256": "8165c9033636cb37cb22a42f3c96f86237a7edcf91b6a6d37665db6358238142",
+      "bytes": 72464
+    }
+  ]
+}

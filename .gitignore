@@ -1,0 +1,30 @@
+# Local runtime and visitor data
+/data/
+/data-*/
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Dependencies and local secrets
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Temporary output; keep test evidence and source assets
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Private operator checks, generated reports and release staging
+/tests/curator-qa/
+/tests/.server-test-*/
+/.tmp/
+/runs/
+/collaboration/
+/docs/__pycache__/
+*.pyc
