@@ -1,0 +1,28 @@
+Noto Serif SC — local font subset notice
+
+Files:
+  indigo-serif-0.ttf — Noto Serif SC Medium, CSS weight 500
+  indigo-serif-1.ttf — Noto Serif SC Bold, CSS weight 700
+
+Copyright stored in both font files:
+  (c) 2017-2024 Adobe (http://www.adobe.com/).
+
+License URL stored in the font files:
+  https://openfontlicense.org
+
+These fonts were obtained through Google Fonts CSS and its fonts.gstatic.com
+download endpoints. A 526-character text subset was requested for this site's
+Chinese content at weights 500 and 700. The delivered files are TrueType sfnt
+fonts; the .ttf filenames and CSS format('truetype') describe their actual format.
+
+Google Fonts family page:
+  https://fonts.google.com/specimen/Noto+Serif+SC
+CSS endpoint:
+  https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700
+The exact text-subset CSS request and both original download URLs are recorded
+in the project research record v0.4字体来源.json. They are not runtime requests.
+
+The SIL Open Font License 1.1 text is preserved unchanged in the accompanying
+OFL-NotoSerifSC.txt. Its existing Google copyright notice is retained; this
+notice additionally preserves the Adobe copyright read from the supplied font
+files. Distribution of these fonts remains subject to the OFL terms.
