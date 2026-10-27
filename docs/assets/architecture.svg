@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="495.28" height="280" preserveAspectRatio="xMinYMin meet" viewBox="0 0 495 280" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="495.28" height="280"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-280)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="196" width="145" height="70" rx="3" ry="3" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,95%,92%); fill-rule: evenodd;"/>
+			<text x="12" y="243" style="font-family: CJK; font-size: 12.1px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,486) scale(1,-1)">策展工作台</text>
+			<text x="12" y="223" style="font-family: CJK; font-size: 8.9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,446) scale(1,-1)">故事 · 初态 · 规则</text>
+			<text x="12" y="208" style="font-family: CJK; font-size: 8.9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,416) scale(1,-1)">本机编辑 / 保存 / 启用</text>
+			<rect x="174" y="196" width="145" height="70" rx="3" ry="3" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,95%,92%); fill-rule: evenodd;"/>
+			<text x="186" y="243" style="font-family: CJK; font-size: 12.1px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,486) scale(1,-1)">版本化展陈包</text>
+			<text x="186" y="223" style="font-family: CJK; font-size: 8.9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,446) scale(1,-1)">id + version</text>
+			<text x="186" y="208" style="font-family: CJK; font-size: 8.9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,416) scale(1,-1)">白名单JSON / 共享校验</text>
+			<rect x="348" y="196" width="147" height="70" rx="3" ry="3" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,95%,92%); fill-rule: evenodd;"/>
+			<text x="360" y="243" style="font-family: CJK; font-size: 12.1px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,486) scale(1,-1)">公共展屏</text>
+			<text x="360" y="223" style="font-family: CJK; font-size: 8.9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,446) scale(1,-1)">选意 / 创作 / 揭蓝</text>
+			<text x="360" y="208" style="font-family: CJK; font-size: 8.9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,416) scale(1,-1)">入场版本 / 独立会话</text>
+			<rect x="0" y="34" width="145" height="96" rx="3" ry="3" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,95%,92%); fill-rule: evenodd;"/>
+			<text x="12" y="107" style="font-family: CJK; font-size: 12.1px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,214) scale(1,-1)">本机服务与SQLite</text>
+			<text x="12" y="87" style="font-family: CJK; font-size: 8.9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,174) scale(1,-1)">展包与当前启用版本</text>
+			<text x="12" y="72" style="font-family: CJK; font-size: 8.9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,144) scale(1,-1)">规范化作品快照</text>
+			<text x="12" y="57" style="font-family: CJK; font-size: 8.9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,114) scale(1,-1)">令牌哈希 / 到期清理</text>
+			<rect x="174" y="34" width="145" height="96" rx="3" ry="3" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(9%,21%,29%); fill-rule: evenodd;"/>
+			<text x="186" y="107" style="font-family: CJK; font-size: 12.1px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,214) scale(1,-1)">同一份作品文档</text>
+			<text x="186" y="87" style="font-family: CJK; font-size: 8.9px;fill: rgb(90%,89%,85%); stroke:none;" transform="translate(0,174) scale(1,-1)">纹样 / 配方 / 制作阶段</text>
+			<text x="186" y="72" style="font-family: CJK; font-size: 8.9px;fill: rgb(90%,89%,85%); stroke:none;" transform="translate(0,144) scale(1,-1)">240 × 240 实际施浆</text>
+			<text x="186" y="57" style="font-family: CJK; font-size: 8.9px;fill: rgb(90%,89%,85%); stroke:none;" transform="translate(0,114) scale(1,-1)">纪念卡与JSON</text>
+			<rect x="348" y="34" width="147" height="96" rx="3" ry="3" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,95%,92%); fill-rule: evenodd;"/>
+			<text x="360" y="107" style="font-family: CJK; font-size: 12.1px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,214) scale(1,-1)">领取与个人工坊</text>
+			<text x="360" y="87" style="font-family: CJK; font-size: 8.9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,174) scale(1,-1)">读取24小时快照</text>
+			<text x="360" y="72" style="font-family: CJK; font-size: 8.9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,144) scale(1,-1)">下载PNG / JSON</text>
+			<text x="360" y="57" style="font-family: CJK; font-size: 8.9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,114) scale(1,-1)">完整覆盖 / 继续编辑</text>
+			<path d="M 145,231 L 174,231 Z" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="174 231, 169 234, 169 228" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(66%,55%,34%); fill-rule: evenodd;"/>
+			<path d="M 319,231 L 348,231 Z" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="348 231, 343 234, 343 228" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(66%,55%,34%); fill-rule: evenodd;"/>
+			<path d="M 421,196 L 421,158 Z" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 421,158 L 246,158 Z" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 246,158 L 246,130 Z" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="246 130, 243 135, 249 135" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(66%,55%,34%); fill-rule: evenodd;"/>
+			<text x="306" y="169" style="font-family: CJK; font-size: 9px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,338) scale(1,-1)">实际创作状态</text>
+			<path d="M 174,84 L 145,84 Z" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="145 84, 150 87, 150 81" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(66%,55%,34%); fill-rule: evenodd;"/>
+			<path d="M 319,84 L 348,84 Z" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="348 84, 343 87, 343 81" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(66%,55%,34%); fill-rule: evenodd;"/>
+			<path d="M 72,34 L 72,15 Z" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 72,15 L 421,15 Z" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 421,15 L 421,34 Z" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="421 34, 418 29, 424 29" style="stroke: rgb(66%,55%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(66%,55%,34%); fill-rule: evenodd;"/>
+			<text x="186" y="0" style="font-family: CJK; font-size: 8.8px;fill: rgb(38%,44%,48%); stroke:none;" transform="translate(0,0) scale(1,-1)">同网令牌领取 / 24h有效</text>
+		</g>
+	</g>
+</svg>
